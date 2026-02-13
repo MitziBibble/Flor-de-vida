@@ -9,7 +9,7 @@ import bpy y import math: Son los libros de instrucciones. Uno le enseña al có
 select_all y delete: Es como tirar todo lo que hay en la mesa a la basura para empezar con un lienzo en blanco.
 
 2.
-Aquí defines cómo será tu dibujo antes de empezar:radio = 3: Es el tamaño de los círculos.paso_angular = 60: Cuando divides 360( que es lo que mide un circulo) con una numero entero, entonces el resultado que te salga sera la cantidad de círculos que apareceran. Como un círculo completo tiene 360 grados, si saltas de 60 en 60, acabarás dibujando 6 pétalos exactos alrededor del centro (360 / 60 = 6).
+Aquí defines cómo será tu dibujo antes de empezar:radio = 3: Es el tamaño de los círculos.paso_angular = 60: Cuando divides 360( que es lo que mide un circulo) con un numero entero, entonces el resultado que te salga sera la cantidad de círculos que apareceran. Como un círculo completo tiene 360 grados, si saltas de 60 en 60, acabarás dibujando 6 pétalos exactos alrededor del centro (360 / 60 = 6).
 
 3.
 bpy.ops.mesh.primitive_circle_add(radius=radio, location=(0, 0, 0), vertices=64)
