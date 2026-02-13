@@ -95,7 +95,7 @@ while angulo_actual < 360:
     x = radio * math.cos(math.radians(angulo_actual))
     y = radio * math.sin(math.radians(angulo_actual))
 
-Imagen de la Flor completa:     
+Imagen de la Flor completa:  https://github.com/MitziBibble/Flor-de-vida/issues/2#issue-3935010882   
     
    
 
